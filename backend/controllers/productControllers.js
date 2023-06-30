@@ -89,3 +89,4 @@ exports.deleteProduct = async (req, res, next) => {
     message: "product deleted successfully",
   });
 };
+
