@@ -31,11 +31,11 @@ Our ecommerce website is a platform that allows users to browse and purchase pro
 
 To set up the ecommerce website locally, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/your-username/ecommerce-website.git`
-2. Navigate to the project directory: `cd ecommerce-website`
+1. Clone the repository: `git clone https://github.com/anandayush24/ecommerce-application.git`
+2. Navigate to the project directory: `cd ecommerce-application`
 3. Install the dependencies: `npm install`
-4. Set up the database: [provide instructions here if applicable]
-5. Configure environment variables: [provide instructions here if applicable]
+4. Set up the database: connection string: mongodb://localhost:27017
+5. Configure environment variables: given 
 6. Start the application: `npm start`
 7. Access the website at `http://localhost:3000`
 
