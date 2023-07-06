@@ -15,6 +15,4 @@ app.use("/api/v1", user);
 //middleware for error
 app.use(errorMidleware);
 
-
-
-module.exports = app
+module.exports = app;

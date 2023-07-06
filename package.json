@@ -1,7 +1,7 @@
 {
   "name": "ecommerce",
   "version": "1.0.0",
-  "description": "",
+  "description": "Welcome to our ecommerce website! This repository contains the source code and documentation for our online store. Here you will find information about the project, its features, and how to set it up.",
   "main": "backend/server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -13,6 +13,7 @@
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "body-parser": "^1.20.2",
+    "cloudinary": "^1.37.3",
     "cookie-parser": "^1.4.6",
     "dotenv": "^16.3.1",
     "express": "^4.18.2",
@@ -22,5 +23,13 @@
     "nodemon": "^2.0.22",
     "router": "^1.3.8",
     "validator": "^13.9.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anandayush24/Ecommerce-Application.git"
+  },
+  "bugs": {
+    "url": "https://github.com/anandayush24/Ecommerce-Application/issues"
+  },
+  "homepage": "https://github.com/anandayush24/Ecommerce-Application#readme"
 }
