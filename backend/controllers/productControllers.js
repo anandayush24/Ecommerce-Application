@@ -80,7 +80,8 @@ exports.deleteProduct = async (req, res, next) => {
     await product.deleteOne({
       _id: req.params.id,
     });
-  } catch (error) {
+  } 
+  catch (error) {
     console.error("Error removing document:", error.message);
   }
 
